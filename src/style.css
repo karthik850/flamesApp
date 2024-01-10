@@ -1,0 +1,32 @@
+#root{
+    height: 100vh;
+}
+
+#root {
+    width: 100%;
+    /* Set your desired height */
+    background-size: cover;
+    position: relative;
+    animation: slideImages 25s linear infinite; /* Adjust the duration as needed */
+}
+
+@keyframes slideImages {
+    0% {
+        background-image: url('assets/1.jpg');
+    }
+    20% {
+        background-image: url('assets/2.jpg');
+    }
+    40% {
+        background-image: url('assets/3.jpg');
+    }
+    60% {
+        background-image: url('assets/4.jpg');
+    }
+    80% {
+        background-image: url('assets/5.jpg');
+    }
+    100% {
+        background-image: url('assets/6.jpg'); /* Loop back to the first image */
+    }
+}
